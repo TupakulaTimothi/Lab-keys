@@ -9,12 +9,16 @@ print("enter an another string of length ",ss1)
 s2=input()
 ss2=len(s2)
 f=0
+r=' '
 if ss1==ss2:
     f=1
     print("the two strings are of same length")
 else:
     print("the two strings are not of same length")
 if f==1:
-    for 
+    for i in range(ss1):
+        r=r+(s1[i]+s2[i])
+print(r)
+
             
     
